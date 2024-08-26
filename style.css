@@ -177,7 +177,7 @@ color: #007185;
 
 /***shop-section***/
 .box{
-border: 2px solid black;
+border: 2px solid #e2e7e6;
 height:400px;
 width: 23%;
 background-color: white;
@@ -186,11 +186,11 @@ background-color: white;
 }
 
 
-
 .shop-section{
+margin-top: 0.85rem;
 display: flex;
 justify-content: space-evenly;
-background-color:#e2e7e6;
+background-color:#;
 }
 
 .box-content{
@@ -204,4 +204,38 @@ background-image: cover;
 background-repeat:no-repeat;
 margin-top:1rem;
 margin-bottom: 1rem
+}
+
+/****foot***/
+
+footer{
+margin-top: 15px;
+}
+.foot-panel1{
+background-color:rgb(13, 32, 66);
+color: white;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items:center;
+font-size: 0.85rem;
+}
+
+.foot-panel2{
+margin: 10px;
+background-color:rgb(13, 32, 66);
+display: flex;
+justify-content: space-evenly;
+}
+.foot-box:hover{
+border: 1px solid #e2e7e6;
+}
+
+ul{
+list-style-type: none
+}
+
+li{
+color: white;
+margin-bottom : 15px;
 }
